@@ -23,7 +23,13 @@ else:
         print("La suma es menor o igual que 30")
         
 numero = int(input("Ingrese un número: "))
-print("El número ingresado es:", numero)
+
+if numero % 2 == 0:
+    print("El número ingresado es:", numero)
+    print("Es un número par")
+else:
+    print("El número ingresado es:", numero)
+    print("Es un número impar")
 
 
         
